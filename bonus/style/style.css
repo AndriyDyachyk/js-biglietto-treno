@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display: inline-block;
+}
+
+.container-fluid{
+    background-color: blueviolet;
+    height: 100vh;
+}
+
+.container-sm{
+    background-color: whitesmoke;
+    height: 50%;
+    border-radius: 30px;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.578);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    line-height: 2rem;
+}
+
+#prezzo{
+    text-decoration: line-through;
+    color: darkgrey;
+}
+
+#prezzo_20, #prezzo_40{
+    color: green;
+}
+
+#sconto{
+    padding: 0px 8px;
+    border: none;
+    border-radius: 2px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+
+h1{
+    margin-bottom: 40px;
+}
